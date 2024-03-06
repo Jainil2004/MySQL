@@ -2,7 +2,7 @@ select * from orders
 INNER JOIN customers ON orders.customer_id = customers.customer_id;
 
 -- this query just means that join the customer table with order table 
--- but make sure that you allign the customer_id from both the tables
+-- but make sure that you align the customer_id from both the tables
 
 select order_id, first_name, last_name from orders 
 INNER JOIN customers ON orders.customer_id = customers.customer_id;
